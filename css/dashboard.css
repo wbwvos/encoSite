@@ -49,6 +49,19 @@ body {
   background-color: #D5E03E;
   border-color: #398439;
 }
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #D5E03E;
+  border-color: #255625;
+}
 
 /*
  * Sidebar
